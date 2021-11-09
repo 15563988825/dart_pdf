@@ -22,12 +22,12 @@ set(PDFIUM_VERSION "4627" CACHE STRING "Version of pdfium used")
 if(${PDFIUM_VERSION} STREQUAL "latest")
   set(
     PDFIUM_URL
-    "https://github.com/bblanchon/pdfium-binaries/releases/latest/download/pdfium-windows-${ARCH}.zip"
+    "https://github.com/bblanchon/pdfium-binaries/releases/download/chromium%2F4627/pdfium-windows-x64.zip"
     )
 else()
   set(
     PDFIUM_URL
-    "https://github.com/bblanchon/pdfium-binaries/releases/download/chromium/${PDFIUM_VERSION}/pdfium-windows-${ARCH}.zip"
+    "https://github.com/bblanchon/pdfium-binaries/releases/download/chromium%2F4627/pdfium-windows-x64.zip"
     )
 endif()
 
